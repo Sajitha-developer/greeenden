@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="
+           https://cdn.jsdelivr.net/npm/tailwindcss@2.2.9/dist/tailwind.min.css
+        " rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+    
+<body class="capitalize">
+
+    <!-- responsive navbar -->
+         <header class="bg-green-300 p-3 flex justify-between items-center shadow-lg sticky top-0  z-10">
+            <h1 class="text-3xl font-bold">Greenden</h1>
+    
+    <!-- button -->
+             <button class="md:hidden ml-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+              </svg>
+              </button>
+    
+    <nav>
+    
+     <!-- navigation menu -->
+             <ul class="hidden md:flex gap-5 text-gray-600">
+                <li>
+                    <a href="index.html" class="hover:underline hover:text-black">home</a>
+                </li>
+                <li>
+                    <a href="about.html"  class="hover:underline hover:text-black">about</a>
+                </li>
+                <li>
+                    <a href="contact.html"  class="hover:underline hover:text-black">contact</a>
+                </li>
+             </ul>
+            </nav>
+         </header>
+
+<!-- our products -->
+          <section class="mt-8 text-center">
+            <h1 class="text-5xl font-bold">Our products</h1>
+            <input type="text" placeholder="Search for a products" class="border border-black p-3 m-5" style="width: 80%;">
+          </section>
+
+<!-- Flowers -->
+<section class="p-3 text-center ">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mt-8">
+        <div>
+            <img src="./images/img1.jpg" alt="" class="inline rounded-md  hover:shadow-xl transform hover:-translate-y-2 duration-500" style="width: 250px; height: 300px;">
+            <h1 class="font-semibold text-2xl mt-2">violet Flowers</h1>
+            <p class="text-lg">$20</p>
+        </div>
+
+        <div>
+            <img src="./images/img2.jpg" alt="" class="inline rounded-md  hover:shadow-xl transform hover:-translate-y-2 duration-500" style="width: 250px; height: 300px;">
+            <h1 class="font-semibold text-2xl mt-2">beautiful white Flowers</h1>
+            <p class="text-lg">$20</p>
+        </div>
+        
+        <div>
+            <img src="./images/img3.jpg" alt="" class="inline rounded-md  hover:shadow-xl transform hover:-translate-y-2 duration-500" style="width: 250px; height: 300px;">
+            <h1 class="font-semibold text-2xl mt-2">yellow & sky blue Flowers</h1>
+            <p class="text-lg">$20</p>
+        </div>
+
+        <div>
+            <img src="./images/img4.jpg" alt="" class="inline rounded-md  hover:shadow-xl transform hover:-translate-y-2 duration-500" style="width: 250px; height: 300px;">
+            <h1 class="font-semibold text-2xl mt-2">rose plants</h1>
+            <p class="text-lg">$20</p>
+        </div>
+    </div>
+
+   </section>
+   <section class="p-3 text-center ">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mt-8">
+        <div>
+            <img src="./images/img5.jpg" alt=""  class="inline rounded-md  hover:shadow-xl transform hover:-translate-y-2 duration-500" style="width: 250px; height: 300px;">
+            <h1 class="font-semibold text-2xl mt-2">rose plants</h1>
+            <p class="text-lg">$20</p>
+        </div>
+        <div>
+            <img src="./images/img6.jpg" alt="" class="inline rounded-md  hover:shadow-xl transform hover:-translate-y-2 duration-500" style="width: 250px; height: 300px;">
+            <h1 class="font-semibold text-2xl mt-2">rose plants</h1>
+            <p class="text-lg">$20</p>
+        </div>
+        <div>
+            <img src="./images/img7.jpg" alt="" class="inline rounded-md  hover:shadow-xl transform hover:-translate-y-2 duration-500" style="width: 250px; height: 300px;">
+            <h1 class="font-semibold text-2xl mt-2">rose plants</h1>
+            <p class="text-lg">$20</p>
+        </div>
+        <div>
+            <img src="./images/img8.jpg" alt="" class="inline rounded-md  hover:shadow-xl transform hover:-translate-y-2 duration-500" style="width: 250px; height: 300px;">
+            <h1 class="font-semibold text-2xl mt-2">rose plants</h1>
+            <p class="text-lg">$20</p>
+        </div>
+    </section>
+     <!-- footer section -->
+
+   <section class="bg-green-100 p-10 mt-9 flex flex-col justify-between items-end md:flex-row">
+    <div>
+    <h1 class="text-5xl font-bold">
+        Greenden
+    </h1>
+    <p class="mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, mollitia!</p>
+    <p class="mt-5">&copy;2021Greenden.com</p>
+</div>
+<div class="flex gap-5 mt-5 justify-end">
+   <p class="hover:text-green-900"> <i class="fa-brands fa-facebook text-2xl"></i></p>
+   <p class="hover:text-green-900"> <i class="fa-brands fa-instagram text-2xl"></i></p>
+   <p class="hover:text-green-900"> <i class="fa-brands fa-twitter text-2xl"></i></p>
+</div>
+   </section>
+  
+
+
+
+
+
+
+
+    
+</body>
+</html>
